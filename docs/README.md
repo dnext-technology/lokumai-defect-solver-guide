@@ -165,7 +165,7 @@ docs/
 
 ### As a User (Developer)
 1. Read the [User Guide](user_guide.md)
-2. Get your API key from [Lokum AI](https://github.com/lokumai)
+2. Get your API key from [Lokum AI](https://github.com/dnext-technology)
 3. Configure your IDE's MCP client
 4. Start localizing bugs with AI assistants
 
@@ -187,9 +187,9 @@ docs/
 ## Related Resources
 
 ### Repositories
-- **Codebase Summarizer:** [GitHub](https://github.com/lokumai/defect-solver-codebase-summarizer)
-- **Bug Localizer API:** [GitHub](https://github.com/lokumai/defect_solver_api)
-- **MCP Server:** [GitHub](https://github.com/lokumai/dnext_coder_mcp_server)
+- **Codebase Summarizer:** [GitHub](https://github.com/dnext-technology/lokumai-defect-solver-codebase-summarizer)
+- **Bug Localizer API:** [GitHub](https://github.com/dnext-technology/lokumai-defect_solver_api)
+- **MCP Server:** [GitHub](https://github.com/dnext-technology/lokumai-dnext_coder_mcp_server)
 
 ### Research
 - **Paper:** See `paper.tex` in the guide repository
@@ -197,7 +197,7 @@ docs/
 
 ### Support
 - **Email:** support@pia-team.com
-- **GitHub:** [Lokum AI](https://github.com/lokumai)
+- **GitHub:** [Lokum AI](https://github.com/dnext-technology)
 
 ---
 

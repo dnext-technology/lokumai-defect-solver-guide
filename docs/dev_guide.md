@@ -484,4 +484,4 @@ docker logs -f <mcp-container>
 For technical issues, check GitHub repositories:
 - [Codebase Summarizer](https://github.com/your-org/defect-solver-codebase-summarizer)
 - [Bug Localizer API](https://github.com/your-org/defect_solver_api)
-- [MCP Server](https://github.com/lokumai/dnext_coder_mcp_server)
+- [MCP Server](https://github.com/dnext-technology/lokumai-dnext_coder_mcp_server)

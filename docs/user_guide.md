@@ -9,12 +9,12 @@ Defect Solver is a bug localization system for large microservice architectures.
 │   You   │  prompt  │  AI Agent   │   tool   │  MCP Server  │
 │         ├─────────►│  (Copilot)  ├─────────►│ (DNext Coder)│
 └─────────┘          └─────────────┘          └──────┬───────┘
-                                                      │
-                                                      ▼
-                                              ┌───────────────┐
-                                              │ Defect Solver │
-                                              │      API      │
-                                              └───────────────┘
+                                                     │
+                                                     ▼
+                                             ┌───────────────┐
+                                             │ Defect Solver │
+                                             │      API      │
+                                             └───────────────┘
 ```
 
 ## What We Provide
@@ -90,7 +90,7 @@ We provide structured prompts to guide AI agents through the bug resolution work
 ### Prerequisites
 
 - VS Code or JetBrains IDE with MCP support
-- API access key (contact [Lokum AI](https://github.com/lokumai) to request)
+- API access key (contact [Lokum AI](https://github.com/dnext-technology) to request)
 
 ### Step 1: Configure MCP Client
 
@@ -279,7 +279,7 @@ If initial results don't lead to the bug:
 
 ### "API Key Invalid" Error
 - Verify your `DS-API-KEY` is correctly set in MCP configuration
-- Check with [Lokum AI](https://github.com/lokumai) that your key is active
+- Check with [Lokum AI](https://github.com/dnext-technology) that your key is active
 - Restart your IDE after updating the key
 
 ### Tool Returns Empty Results
@@ -309,7 +309,7 @@ See the [AGENTS.md file](../resources/AGENTS.md) for details.
 ## Support & Contact
 
 For API access, technical support, or feature requests:
-- **GitHub:** [Lokum AI](https://github.com/lokumai)
+- **GitHub:** [Lokum AI](https://github.com/dnext-technology)
 
 ---
 
