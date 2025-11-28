@@ -23,9 +23,15 @@ Learn how to:
 Learn how to:
 - Set up and configure the Codebase Summarizer
 - Run manual summarization pipelines
-- Deploy automated summarization schedules
 - Maintain the Bug Localizer API and MCP Server
 - Monitor system health and troubleshoot issues
+
+**[Deployment Guide](deploy_guide.md)** - Step-by-step deployment instructions  
+Learn how to:
+- Deploy the Codebase Summarizer (HF Space)
+- Deploy the Defect Solver API (Docker/Cloud)
+- Deploy the MCP Server (Gateway)
+- Configure environment variables and central storage
 
 *Perfect for: DevOps, system administrators, and project maintainers*
 
@@ -57,6 +63,7 @@ Learn about:
 │     → [User Guide](user_guide.md)                           │
 │                                                             │
 │  🛠️  I maintain/deploy the system                           │
+│     → [Deployment Guide](deploy_guide.md)                   │
 │     → [Developer Guide](dev_guide.md)                       │
 │                                                             │
 │  🔬 I want to understand the algorithm                      │
@@ -70,6 +77,8 @@ Learn about:
 ## System Overview
 
 Defect Solver is a bug localization system designed for large microservice architectures. It uses hierarchical natural language summaries of codebases to perform intelligent bug localization across multiple repositories.
+
+See the [High Level Diagram](drawio_diagrams/high-level-mcp.png) for a visual representation of the system components and data flow.
 
 ### Architecture
 
@@ -149,6 +158,12 @@ docs/
 │   ├── Authentication overview
 │   └── Common maintenance workflows
 │
+├── deploy_guide.md
+│   ├── Codebase Summarizer deployment
+│   ├── Defect Solver API deployment
+│   ├── MCP Server deployment
+│   └── Central Storage configuration
+│
 └── algorithm.md
     ├── Core methodology (NL-to-NL reasoning)
     ├── Two-phase pipeline
@@ -170,11 +185,10 @@ docs/
 4. Start localizing bugs with AI assistants
 
 ### As a Maintainer
-1. Read the [Developer Guide](dev_guide.md)
-2. Set up the Codebase Summarizer
-3. Run the manual summarization pipeline
-4. Deploy the automated scheduler
-5. Configure and deploy the API and MCP Server
+1. Read the [Developer Guide](dev_guide.md) for setup and maintenance
+2. Read the [Deployment Guide](deploy_guide.md) for deployment instructions
+3. Set up the Codebase Summarizer
+4. Configure and deploy the API and MCP Server
 
 ### As a Researcher
 1. Read the [Algorithm Details](algorithm.md)

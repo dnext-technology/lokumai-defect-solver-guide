@@ -31,6 +31,8 @@ flowchart LR
     DS -->|Ranked Results| Agent
 ```
 
+See the [High Level Diagram](./docs/drawio_diagrams/high-level-mcp.png) for a detailed system overview.
+
 ## Quick Start
 
 1. **Connect to MCP Server** - Use hosted version at `https://dnext-coder-mcp-server.pia-team.com/mcp/`
@@ -47,9 +49,10 @@ Two-phase pipeline: **Search Space Routing** → **Bug Localization**
 
 See [Algorithm Details](./docs/algorithm.md) for complete breakdown.
 
-## Development
+## Development & Deployment
 
-For contributors and developers, see [Developer Guide](./docs/dev_guide.md).
+- For contributors and developers, see [Developer Guide](./docs/dev_guide.md).
+- For deployment instructions, see [Deployment Guide](./docs/deploy_guide.md).
 
 ## Research
 
