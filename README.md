@@ -56,6 +56,8 @@ See [Algorithm Details](./docs/algorithm.md) for complete breakdown.
 
 ## Research
 
-Based on hierarchical code understanding to overcome LLM context window limitations in large-scale projects.
+Based on hierarchical code understanding research papers to overcome LLM context window limitations in large-scale projects.
 
-**Paper**: [Repository-Level Code Understanding by LLMs via Hierarchical Summarization](https://www.researchgate.net/publication/391739021_Repository-Level_Code_Understanding_by_LLMs_via_Hierarchical_Summarization_Improving_Code_Search_and_Bug_Localization)
+**Paper 1**: [Repository-Level Code Understanding by LLMs via Hierarchical Summarization](https://www.researchgate.net/publication/391739021_Repository-Level_Code_Understanding_by_LLMs_via_Hierarchical_Summarization_Improving_Code_Search_and_Bug_Localization)
+
+**Paper 2**: [Natural Language Summarization Enables Multi-Repository Bug Localization by LLMs in Microservice Architectures](https://arxiv.org/abs/2512.05908?context=cs.SE)
